@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+ol, ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+b,strong{
+    font-weight:normal;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+i,em{
+    font-style: normal;
+}.Header{
+	height: 30px;
+	background:#282828 ;
+}
+.header{
+	height: 30px;
+	width: 1090px;
+	margin: 0 auto;
+
+}
+.spanL{
+	float: left;
+	width: 350px;
+	font-size: 12px;
+
+}
+.spanL ul{
+		float: left;
+		width: 183px;
+}
+.spanL li{
+	float: left;
+	line-height: 30px;
+	color: #999999;
+}
+.spanL li a{
+	font-size: 12px;
+		color: #999999;
+}
+.spanL p{
+	float: left;
+	width: 78px;
+	margin-left: 30px;
+	line-height: 30px;
+		color: #999999;
+	
+}
+.spanR{
+	float: right;
+    position: relative;
+    right: -3px;
+}
+.nav_Right li{
+	    float: left;
+	    line-height: 30px;
+}
+.nav_Right li a{
+	    padding: 0 14px 0 8px;
+	    color:#999;
+	    font-size:12px;
+}
+.logo{
+	margin: 0 auto;
+	width: 1000px;
+	position: relative;
+}
+.logo {
+	height: 100px;
+}
+.logo a{
+	width:330px;
+	height: 65px;
+	position: absolute;
+    left: 0;
+    top: 20px;
+    width: 330px;
+    height: 65px;
+    line-height: 65px;
+    outline: none;
+    cursor: pointer;
+    z-index: 9;
+    background-repeat: no-repeat;
+    background-position: left center
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<a href="https://www.kaola.com/"></a>
+			<div id="topping">
+				<ul class="clearfix">
+					<li>
+						<div class="ntmIcon">正</div>
+						<strong class="tit">100%正品 </strong>
+						<br />
+						<span class="desc">正品保障 假一赔十</span>
+					</li>
+					<li><div class="ntmIcon">正</div>
+						<strong class="tit">100%正品 </strong>
+						<br />
+						<span class="desc">正品保障 假一赔十</span></li>
+					<li><div class="ntmIcon">正</div>
+						<strong class="tit">100%正品 </strong>
+						<br />
+						<span class="desc">正品保障 假一赔十</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="box">
+				<div class="main">
+					<a href="" id="picture"><img src="img/18cc14f7f9b94b1ebac54679f569d7d2.png"/></a>
+					<div class="loginWrap">
+						<div class="login_top">
+							<span id="head1">
+								手机注册
+							</span>
+							<span id="headcenter">
+								&nbsp;
+							</span>
+							<span id="head2">
+								邮箱注册
+							</span>
+						</div>
+						<form class="login_main" onsubmit="return false">
+							<!--<div  id="login_form1">
+								<div id="password_login"><span id="password_login_a">使用密码验证登录</span></div>
+								<div class="inputbox"><span></span><input type="text" name="username" id="" placeholder="请输入手机号" /></div>
+								<div class="check"></div>
+								<div class="password"><input type="text"  name="password" placeholder="请输入短信验证码"/><span>获取短信验证码</span></div>
+								<button class="but" type="submit" name="login-btn">登录</button>
+							</div>
+						<div id="login_form2">
+								<div id="password_login"><a href="" id="password_login_a">使用短信登录</a></div>
+								<div class="inputbox"><span></span><input type="text" name="username"  id="" placeholder="请输入手机号" /></div>
+								<div class="password"><i></i><input type="text" name="password" placeholder="请输入密码"/></div>
+								 <button class="but" type="submit" name="login-btn">登录</button>
+						</div>-->
+						<div id="login_form3">
+								<div id="password_login"><a href="" id="password_login_a">网易邮箱登录</a></div>
+									<div class="inputbox"><span></span><input type="text" name="username"  id="" placeholder="请输入手机号" /></div>
+								<div class="password"><i></i><input type="text" name="password" placeholder="请输入密码"/></div>
+							 <button class="but" type="submit" name="login-btn">登录</button>
+						</div>
+						</form>
+						
+						<div class="login_bottom">
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+				<div class="aboutNEST">
+			<a href="">About NetEase</a>
+			-
+			<a href="">公司简介</a>
+			-
+			<a href="">公司简介</a>
+		-
+			<a href="">公司简介</a>
+			-
+			<a href="">公司简介</a>
+			-
+			<a href="">公司简介</a>
+		-
+			<a href="">公司简介</a>
+			-
+			<a href="">公司简介</a>
+			-
+			<a href="">公司简介</a>
+			-
+			<a href="">公司简介</a>
+			<br />
+			<span>网络文化经营许可证：浙网文[2016]0155-055号</span>
+			<span>增值电信业务经营许可证：浙B2-20160288</span>
+			<span>自营经营者信息</span>
+			<br />
+			<a href=""><img src="img/d071c0de-5360-4dcb-915a-f9f9bb62a9d5.gif"/></a>
+			<a href=""><span style="0px 0px 0px 5px">浙公网安备 33010802002216号</span></a>
+			<span>网易公司版权所有©1997-2018</span>
+			<a href="">互联网药品信息服务资格证书编号（浙）-2017-0027</a>
+			<div id="f-tac">
+				<a href=""><img src="img/f-tac1.png"/></a>
+				<a href=""><img src="img/f-tac3.png" style="width: 81px;"/></a>
+				<a href=""><img src="img/f-tac2.gif" style="width: 24px;"/></a>
+			</div>
+		</div>
+		<!--<script src="js/login.js"></script>-->
+		<script src="js/common/ajax.js"></script>
+    <!--<script src="js/star.js"></script>-->
+    <script src="js/login.js"></script>
+//		<script type="text/javascript">
+//			var $login_form2=document.querySelector('#login_form2');
+//			var $password_login=document.getElementById('password_login_a');
+//			var $login_form1=document.querySelector('#login_form1');
+//			var $login_main=document.querySelector('.login_main');
+//			var $login_form3=document.querySelector('#login_form3');
+//			var $head2=document.querySelector('#head2')
+//				var $head1=document.querySelector('#head1')
+//			$head2.onclick=function(){
+//				console.log(1)
+//				$login_form1.style.display="none";
+//				$login_form3.style.display="block"
+//				$login_form2.style.display="none";
+//			}
+//			$head1.onclick=function(){
+//				$login_form1.style.display="block";
+//				$login_form2.style.display="none";
+//				$login_form3.style.display="none";
+//			}
+//			$password_login.onclick=function(){
+//				$login_form1.style.display="none";
+//				$login_form2.style.display="block";
+//				$login_form3.style.display="none";
+//			}
+			
+			 login.init('.login_main');
+			 
+		</script>
+	</body>
+</html>

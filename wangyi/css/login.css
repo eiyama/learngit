@@ -1,0 +1,317 @@
+ *{
+    margin:0;
+    padding:0;
+}
+ol, ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+b,strong{
+    font-weight:normal;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+i,em{
+    font-style: normal;
+}
+.header{
+	margin: 0 auto;
+	width:1000px;
+}
+.header{
+	height: 100px;
+	border-bottom:1px solid #eaeaea;
+	position: relative;
+}
+.header a{
+	position: absolute;
+    left: 0;
+    top: 20px;
+    width: 330px;
+    height: 65px;
+    line-height: 65px;
+    outline: none;
+    cursor: pointer;
+    z-index: 9;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background: url(../img/images/logo_03.png) no-repeat left center;
+}
+#topping{
+	margin-left: 458px;
+    height: 80px;
+    width: 504px;
+   padding-top:20px ;
+}
+
+.clearfix li{	
+	padding
+	text-align: center;
+	float: left;
+    width: 166px;
+    /*margin-left: 10px;*/
+}
+.ntmIcon{
+	width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid  #c3144b;
+    text-align: center;
+    line-height: 44px;
+    font-size: 20px;
+    font-weight: 900;
+    display: inline-block;
+    float: left;
+    color: #c3144b;
+    margin-right: 12px;
+    
+}
+.tit{
+	    font-size: 14px;
+       font-weight: 700;
+}
+.desc{
+	    font-size: 11px;
+	    color: #999999;
+}
+.box{
+	height: 520px;
+	background-color: #f8f8f8;
+    background-repeat: no-repeat;
+}
+.main{
+    position: relative;
+    width: 1000px;
+    height: 520px;
+    margin: 0 auto;	
+}
+.main #picture{
+	    position: absolute;
+    left: 10px;
+    top: 109px;
+    width: 400px;
+    height: 280px;
+}
+.loginWrap{
+	height: 390px;
+    position: absolute;
+    z-index: 2;
+    right: 40px;
+    top: 48px;
+    width: 350px;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+}
+.login_top{
+	    position: relative;
+    width: 350px;
+    height: 52px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    line-height: 52px;
+    color: #333;
+}
+.login_top #head1{
+	float: left;
+    width: 175px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ec5461;
+}
+#headcenter{
+	position: absolute;
+    top: 17px;
+    left: 175px;
+    width: 0px;
+    height: 20px;
+    border-right: solid 1px #ddd;
+}
+
+#head2{
+	    float: left;
+    width: 175px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+#head2:hover{
+	color: #ec5461;
+}
+.login_main{
+	height: 300px;
+	width: 270px;
+    padding: 20px 40px 15px;
+    background-color: #fff;
+
+}
+/*.login_main_email{
+	    width: 270px;
+    padding: 20px 40px 15px;
+    background-color: #fff;
+    display: none;
+}*/
+
+#login_form1{
+	    width: 270px;
+}
+#password_login{
+	width: 270px;
+	height: 5px;
+    padding: 0 0 10px 0;
+    position: relative;
+}
+#password_login_a{
+	/*float: right;*/
+	position: absolute;
+	right:0 ;
+	height: 14px;
+    padding-left: 17px;
+    line-height: 14px;
+    padding: 0 0 0 17px;
+    font-size: 10px;
+ background: url(../img/tubiao_03.png)no-repeat left center;
+        color: #666;
+}
+#password_login_a:hover{
+	color: red;
+}
+.inputbox{
+   margin-top:10px;
+   height: 34px;
+    line-height: 30px;
+    border-color: #d5d5d5;
+    border-radius: 2px;
+    border: 1px solid #c5cddb;
+}
+.inputbox span{
+	width: 17px;
+    height: 18px;
+    margin-top: 8px;
+	    /*width: 17px;*/
+    padding: 0 18px;
+    background: url(../img/tubiao_07.png)no-repeat center;
+}
+.inputbox input{
+	width: 230px;
+	height: 30px;
+	/*border-radius: 2px;*/
+	padding-left: 0px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+	border: 0;
+}
+.check{
+	margin-top: 15px;
+	width: 268px;
+    height: 26.8px;
+    border-radius: 13.4px;
+	border: 1px solid #d5d5d5;
+
+}
+.password{
+	width: 270px;
+	height: 36px;
+	border: 1px solid #d5d5d5;
+	margin: 20px 0 30px 0;
+    line-height: 30px;
+    border-radius: 2px;
+    position: relative;
+}
+.password input{
+	width: 230px;
+	height: 36px;
+	border: 0;
+}
+.password span{
+	position: absolute;
+	/*float: right;*/
+	right: 0;
+	display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+	height: 36px;
+    width: 96px;
+    line-height: 32px;
+    background-color: #eee;
+    color: #333;
+    border-left: #d5d5d5 solid 1px;
+    text-align: center;
+    font-size: 12px;
+  
+}
+.password i{
+	width: 17px;
+    height: 18px;
+    margin-top: 8px;
+	    /*width: 17px;*/
+    padding: 0 18px;
+    background: url(../img/tubiao_03.png)no-repeat center;
+}
+
+#login_form2{
+	width: 270px;
+	display: none;
+	height: 230px;
+}
+#login_form3{
+	/*display: none;*/
+	width: 270px;
+		height: 230px;
+}
+button{
+	width: 270px;
+	height: 36px;
+	background: #EC5461;
+	border: 0;	
+}
+.aboutNEST{
+	height: 153px;
+	/*background: #FFFFFF;*/
+}
+.aboutNEST{
+	    position: relative;
+    padding: 20px 0;
+    background: #ffffff;
+    line-height: 26px;
+    text-align: center;
+    color:#c2c2c2;
+}
+.aboutNEST a{
+	font-size:11px;
+	color: #C2C2C2;
+	line-height: 26px;
+}
+.aboutNEST span{
+	    margin-left: 20px;
+	    font-size: 11px;
+	    line-height: 26px;
+}
+.aboutNEST a img{
+	width: 20px;
+	height: 20px;
+	margin-top: -2px;
+	    vertical-align: middle;
+    display: inline-block;
+    margin-right: -20px;
+    
+}
+#f-tac{
+	text-align: center;
+}
+#f-tac>a>img{
+	/*z-index: 1000;*/
+	width: 84px;
+	height: 30px;
+    margin: 5px 15px 0 0;
+    vertical-align: middle;
+    display: inline-block;
+}
+
