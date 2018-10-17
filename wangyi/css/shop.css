@@ -70,7 +70,7 @@ i,em{
 }
 .logo{
 	margin: 0 auto;
-	width: 1000px;
+	width: 1090px;
 	position: relative;
 }
 .logo {
@@ -90,4 +90,249 @@ i,em{
     z-index: 9;
     background-repeat: no-repeat;
     background-position: left center
+}
+.shop{
+    height: 425px;
+    width: 1090px;
+    margin :0 auto;
+}
+h3{
+        font-size: 14px;
+    color: #333;
+    line-height: 32px;
+    margin-top: 15px;
+}
+.tt{
+        position: relative;
+    top: -1px;
+    font-weight: bold;
+}
+.head{
+        color: #999;
+    border: 1px solid #eaeaea;
+    height: 34px;
+    line-height: 34px;
+}
+.col{
+        width: 114px;
+            float: left;
+    padding: 0 10px;
+}
+.u-chk{
+    margin: -6px 10px 0 12px;
+        width: 17px;
+    height: 18px;
+    display: inline-block;
+    zoom: 1;
+   
+}
+.lab{
+        color: #000;
+}
+
+.col2 {
+    width: 402px;
+    float: left;
+    padding: 0 10px;
+}
+ .col3 {
+    width: 130px;
+       float: left;
+    padding: 0 10px;
+}
+.col4{
+        width: 127px;
+        float: left;
+          padding: 0 10px;
+}
+.col5{
+    width:108px;
+  float: left;
+          padding: 0 10px;
+
+}
+.col6{
+    width: 87px;
+    float: left;
+    padding: 0 10px;
+}
+.m-cart{
+        position: relative;
+    margin-top: 15px;
+    color: #333;
+}
+.ware{
+        padding: 7px 0 8px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+.warename a{
+        font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+.nothing{
+    text-align: center;
+    line-height: 50px;
+    color: #a5c2eb;
+}
+#images{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.shop_detalis{
+font-size: 12px;
+color: #c2a5a5;
+}
+.sub{
+    margin-left: 10px;
+}
+._shop{
+     float: left;
+    margin-top: 130px;
+    margin-left: 300px;
+    line-height: 30px;
+}
+.foot{
+    width: 1000px;
+    margin:0 auto;
+    height:410px;
+    background: #FFFFFF;
+}
+.btmlist{
+    height:97px;
+    padding-top: 50px;
+    border-bottom: 1px solid #D6D6D6;
+}
+.clearfix{
+    height: 47px;
+    width: 1000px;
+}
+.clearfix li{   
+    float: left;
+    width: 233px;
+    margin-left: 25px;
+}
+.ntmIcon{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid #d6d6d6;
+    text-align: center;
+    line-height: 44px;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    float: left;
+    margin-right: 12px;
+}
+.tit{
+        font-size: 18px;
+    font-weight: 700;
+}
+.desc{
+        font-size: 14px;
+}
+.guidelist{
+    height: 128px;
+    padding:45px 0 90px;
+}
+.guidelist li{
+    float: left;
+    width: 90px;
+    padding: 0 0 0 21px;
+    margin-left: 0;
+    height: 128px;
+}
+
+.guidelist .first{
+    display: block;
+    width: 220px;
+    height: 128px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    outline: none;
+    cursor: pointer;
+    z-index: 9;
+    margin-right: 45px;
+}
+.focuson{
+    height: 32px;
+    
+}
+ .lable{
+    float: left;
+    height: 32px;
+    width: 48px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 11px;
+    color: #333333;
+}
+.focuson a{
+    margin-left: 10px;
+    float: left;
+}
+#dl dt{
+margin: -4px 0 10px;
+font-size: 17px;
+color: #333333;
+}
+#dl dd{
+    line-height: 29px;
+    color: #333;
+    cursor: pointer;
+    font-size: 11px;
+}
+#qr_code{
+    margin-left: 10px;
+        text-align: center;
+        color: #333333;
+        font-size: 11px;
+}
+.aboutNEST{
+    height: 153px;
+    background: #333333;
+}
+.aboutNEST{
+        position: relative;
+    padding: 20px 0;
+    background: #333;
+    line-height: 26px;
+    text-align: center;
+    color:#c2c2c2;
+}
+.aboutNEST a{
+    font-size:11px;
+    color: #C2C2C2;
+    line-height: 26px;
+}
+.aboutNEST span{
+        margin-left: 20px;
+        font-size: 11px;
+        line-height: 26px;
+}
+.aboutNEST a img{
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+        vertical-align: middle;
+    display: inline-block;
+    margin-right: -20px;
+    
+}
+#f-tac{
+    text-align: center;
+}
+#f-tac>a>img{
+    /*z-index: 1000;*/
+    width: 84px;
+    height: 30px;
+    margin: 5px 15px 0 0;
+    vertical-align: middle;
+    display: inline-block;
 }

@@ -134,11 +134,13 @@ i,em{
 }
 
 #head2{
-	    float: left;
+     float: left;
     width: 175px;
     text-align: center;
     cursor: pointer;
     font-weight: bold;
+        color: black;
+    /*background-color: #fff;*/
 }
 #head2:hover{
 	color: #ec5461;

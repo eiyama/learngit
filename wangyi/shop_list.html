@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/shop_list.css"/>
+        <link rel="stylesheet" type="text/css" href="css/public.css"/>
+         <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    ul {
+      list-style: none;
+    }
+   .shop{
+    height: 425px;
+    width: 1090px;
+   position: relative;
+
+}
+    .box {
+      padding: 20px;
+    }
+    .show-image {
+      position: relative;
+      width: 360px;
+      font-size: 0;
+      border: 1px solid #ccc;
+      overflow: hidden;
+      float: left;
+    }
+    .show-image img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .filter {
+      position: absolute;
+      left: 0px;
+      top:0;
+      width: 150px;
+      height: 150px;
+      background: rgba(0,0,0,0.6);
+      cursor: move;
+      display: none;
+    }
+    .img-box {
+      padding: 10px;
+    }
+    .img-box>li {
+      display: inline-block;
+      border: 1px solid transparent;
+      margin-left: 10px;
+    }
+    .img-box>li img{
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .img-box>li:hover,
+    .img-box>li.active {
+      border: 1px solid #000;
+    }
+    .show-big-image {
+      position: absolute;
+      left: 400px;
+      top: 20px;
+      width: 450px;
+      height: 450px;
+      overflow: hidden;
+      border: 1px solid #eee;
+      display: none;
+    }
+    .show-big-image img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1080px;
+    }
+  </style>
+    </head>
+    <body>
+        <div class="head">
+
+            </div>
+            <div class="shop">
+               <div class="box">
+      <div class="show-image">
+       <img src="img/b0bd91f68a704542948e4842183d77741520225281202jedqvq8o10237.jpg" id="images"> 
+        <span class="filter"></span>
+      </div>
+      <div class="show-big-image">
+      <img src="img/b0bd91f68a704542948e4842183d77741520225281202jedqvq8o10237.jpg" id="images"> 
+      </div>
+      <ul class="img-box">
+        <li class="active"></li>
+        <li></li>
+      </ul>
+    </div>
+                    <div class="shopping">
+                    <!--    <div class='shop_detalis'>
+                          <div class="_shop"> 价格: <span class="shop-price">35</span><br />
+                          商品名称:<span class="shop-name">面膜</span><br />
+                            数量: <input class="shop-count" type="number"  value="1" /><br />
+                            <button class="btn shop-btn-car">加入购物车</button>
+                            </div>
+                        </div>-->
+                        </div> 
+                    </div>
+                <div class="foot">
+                    
+                </div>
+        <script src="js/ajax2.0.0.js"></script>
+       <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/shop.js"></script>
+     <script src="js/glass.js"></script>
+    <script>
+       big.init();
+    </script>
+    <script>
+    $('.head').load('public.html ._head');
+    $('.foot').load('public.html .footer');
+ shopList.init('.shopping');
+
+
+
+
+
+    </script>
+    </body>
+</html>

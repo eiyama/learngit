@@ -44,25 +44,15 @@
 							</span>
 						</div>
 						
-						<form class="login_main" onsubmit="return false">
-							<div  id="login_form1">
-								<div id="password_login"><span id="password_login_a">使用密码验证登录</span></div>
-								<div class="inputbox"><span></span><input type="text" name="username" id="" placeholder="请输入手机号" /></div>
-								<div class="check"></div>
-								<div class="password"><input type="text"  name="password" placeholder="请输入短信验证码"/><span>获取短信验证码</span></div>
-								<button class="but" type="submit" name="login-btn">登录</button>
-							</div>
-						<div id="login_form2">
+						<form class="register_main" onsubmit="return false" style="height: 300px;
+	width: 270px;
+    padding: 20px 40px 15px;
+    background-color: #fff;">
+						<div id="login_form2" style="display: block;">
 								<div id="password_login"><a href="" id="password_login_a">使用短信登录</a></div>
 								<div class="inputbox"><span></span><input type="text" name="username"  id="" placeholder="请输入手机号" /></div>
 								<div class="password"><i></i><input type="text" name="password" placeholder="请输入密码"/></div>
-								 <button class="but" type="submit" name="login-btn">登录</button>
-						</div>
-						<div id="login_form3" style="display: none;">
-								<div id="password_login"><a href="" id="password_login_a">网易邮箱登录</a></div>
-									<div class="inputbox"><span></span><input type="text" name="username"  id="" placeholder="网易邮箱" /></div>
-								<div class="password"><i></i><input type="text" name="password" placeholder="请输入密码"/></div>
-							 <button class="but" type="submit" name="login-btn">登录</button>
+								 <button class="but" type="submit" name="login-btn">注册</button>
 						</div>
 						</form>
 						
@@ -111,33 +101,11 @@
 		<!--<script src="js/login.js"></script>-->
 		<script src="js/common/ajax.js"></script>
     <!--<script src="js/star.js"></script>-->
-    <script src="js/login.js"></script>
+    <script src="js/register.js"></script>
 		<script type="text/javascript">
-			var $login_form2=document.querySelector('#login_form2');
-			var $password_login=document.getElementById('password_login_a');
-			var $login_form1=document.querySelector('#login_form1');
-			var $login_main=document.querySelector('.login_main');
-			var $login_form3=document.querySelector('#login_form3');
-			var $head2=document.querySelector('#head2')
-			var $head1=document.querySelector('#head1')
-			$head2.onclick=function(){
-				console.log(1)
-				$login_form1.style.display="none";
-				$login_form3.style.display="block"
-				$login_form2.style.display="none";
-			}
-			$head1.onclick=function(){
-				$login_form1.style.display="block";
-				$login_form2.style.display="none";
-				$login_form3.style.display="none";
-			}
-			$password_login.onclick=function(){
-				$login_form1.style.display="none";
-				$login_form2.style.display="block";
-				$login_form3.style.display="none";
-			}
 			
-			 login.init('.login_main');
+			
+			 register.init('.register_main');
 			 
 		</script>
 	</body>

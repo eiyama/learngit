@@ -14,8 +14,8 @@
     $password = $json -> password;
     // 链接数据库
     $coon = new db();
-    $sql = "select * from shop_user WHERE username='$username'";
-    $insert_sql = "INSERT INTO shop_user (username, `password`) values ('$username','$password')";
+    $sql = "select * from user WHERE username='$username'";
+    $insert_sql = "INSERT INTO user (username, `password`) values ('$username','$password')";
     $rows = $coon -> Query($sql, 2);
     if($rows) {
       // 用户名称存在
@@ -30,6 +30,5 @@
       }
     }
     echo json_encode($arr);
-
-   
+    
   ?>

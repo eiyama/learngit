@@ -143,22 +143,17 @@ i,em{
 #head2:hover{
 	color: #ec5461;
 }
-.login_main{
+.register_main{
 	height: 300px;
 	width: 270px;
     padding: 20px 40px 15px;
     background-color: #fff;
 
 }
-/*.login_main_email{
-	    width: 270px;
-    padding: 20px 40px 15px;
-    background-color: #fff;
-    display: none;
-}*/
+#login_form2{
+    width: 270px;
+    height: 230px;
 
-#login_form1{
-	    width: 270px;
 }
 #password_login{
 	width: 270px;
@@ -256,16 +251,8 @@ i,em{
     background: url(../img/tubiao_03.png)no-repeat center;
 }
 
-#login_form2{
-	width: 270px;
-	display: none;
-	height: 230px;
-}
-#login_form3{
-	display: none;
-	width: 270px;
-height: 230px;
-}
+
+
 button{
 	width: 270px;
 	height: 36px;

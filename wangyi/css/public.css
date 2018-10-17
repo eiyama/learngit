@@ -18,15 +18,6 @@ h1,h2,h3,h4,h5,h6{
 i,em{
     font-style: normal;
 }
-.box{
-	height: 100%;
-	width: 100%;
-	background: #f9bcbc;
-}
-/*.header{
-	margin: 0 auto;
-	width: 1000px;
-}*/
 .Header{
 	height: 30px;
 	background:#282828 ;
@@ -64,7 +55,8 @@ i,em{
 	width: 78px;
 	margin-left: 30px;
 	line-height: 30px;
-	color: #999999;
+		color: #999999;
+	
 }
 .spanR{
 	float: right;
@@ -94,6 +86,14 @@ i,em{
     border-color: #999 transparent transparent;
     border-style: solid dashed dashed;
     border-width: 4px 4px 0;
+     /*   position: absolute;
+    left: -1px;
+    top: 30px;
+    _width: 60px;
+    border-top: 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.12);
+    padding: 4px 15px 12px 14px;
+    display: none;*/
 }
 .personal_people{
 	position: absolute;
@@ -324,213 +324,6 @@ i,em{
 #funcTab li:hover a{
 	color: red;
 }
-.column_son{
-    height: inherit;
-    min-width: 1000px;
-    max-width: 1920px;
-    position: absolute;
-    left: 50%;
-    top: 0;
-        transform: translateX(-50%);
-}
-.column{
-	height: 400px;
-    position: relative;
-}
-.swiper-container .hide{
-  opacity:0;
-}
-
-.swiper-button-next,.swiper-button-prev{
-  transition:opacity .5s;
-}
-
-.discount,.moudel,.overseas{
-	width: 1000px;
-	margin: 0 auto;
-}
-.discount{
-	height: 787px;
-	/*background: aquamarine;*/
-}
-#coupon{
-	height: 617px;
-	background: #f88690;
-    overflow: hidden;
-}
-
-#coupon .back{
-	height: 45px;
-	background: url(../img/coupon_03.png)no-repeat center left;	
-
-}
-#coupon h2{
-	text-align: center;
-	line-height: 45px;
-	font-size: 21px;
-	color: #fbfffd;
-	font-weight: 800;
-	background: url(../img/coupon_03.png)no-repeat center right;	
-	
-}
-#newcoupon{
-	height: 140px;
-}
-#coupon .back2{
-	height: 45px;
-	background: url(../img/coupon_03.png)no-repeat center left;	
-}
-#coupon h3{
-	text-align: center;
-	line-height: 45px;
-	font-size: 21px;
-	color: #fbfffd;
-	font-weight: 800;
-	background: url(../img/coupon_03.png)no-repeat center right;	
-	
-}
-
-.arbitrarily{
-	height: 126px;
-}
-.couponimg{
-	height: 225px;
-	margin-top: 34px;
-	
-}
-#discountBottom{
-	height:170px;
-	
-}
-
-
-.moudel{
-    height: 638px;
-    margin-top: 30px;
-    background-color: rgb(240, 240, 240);
-}
-
- .moudel h2{
-    background: #a51937;
-    margin:10px 0;
-    padding: 0 5px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    font-size: 28px;
-    color: #ffffff;
-}
-.content{
-    height: 568px;      
-}
-.content ul{
-    height: 568px;
-        
-}
-.content ul li{
-    margin: 3px;
-    /*height:279px;*/
-    width:192px;
-    background: #ffffff;
-    float: left;
-    position: relative;
-    border: 1px solid #666666;
-}
-
-.content ul li #logo{
-    height: 28px;
-    width: 28px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-.content ul li h5{
-    transition: .5s ease-out;
-    max-height: 22px;
-    line-height: 22px;
-    margin: 3px 15px;
-    color: #333;
-    font-size: 14px;
-    font-weight: 700;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-.content ul li h6{
-    height: 20px;
-    margin: 0 15px 5px;
-    color: #666;
-    font-size: 12px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-#price1{
-height: 22px;
-    overflow: hidden;
-    white-space: normal;
-    line-height: 22px;
-    color: #e31436;
-}
-#price1 i{
-    font-size: 12px;
-    font-weight: 400;
-}
-.unitprice{
-     white-space: normal;
-     font-size: 10px;
-    line-height: 22px;
-    color: #999999;
-}
-.content ul li img{
-    height: 192px;
-    width:192px ;
-}
- .good-bd:hover h5{
-        max-height: 100px;
-    height: auto;
-    overflow: hidden;
-    white-space: normal;
-    text-overflow: unset;
-    word-wrap: break-word;
-     text-decoration: underline;
-     z-index: 100;
-  }
-.good-bd:hover{
-    padding: 0 5px 0 0;
-    box-sizing: border-box;
-    width: 192px;
-    position: absolute;
-    background: #FFFFFF;
-    left: 0 ;
-    top: 0;
-    z-index: 100;
-}
-.good-btn{
-    height: 22px;
-    line-height: 22px;
-    right: 5px;
-}
-.good-btn span{
-    display: block;
-    height: 22px;
-    padding: 0 4px;
-    border-radius: 3px;
-    background: #e31436;
-    color: #fff;
-    font-size: 12px;
-    line-height: 22px;
-    text-align: center;
-    position: absolute;
-    right: 6px;
-    bottom: 10px;
-}
-.overseas{
-	height: 400px;
-}
-.AD{
-	height: 100px;
-}
 .foot{
 	width: 1000px;
 	margin:0 auto;
@@ -552,7 +345,7 @@ height: 22px;
     margin-left: 25px;
 }
 .ntmIcon{
-    width: 44px;
+	width: 44px;
     height: 44px;
     border-radius: 50%;
     border: 2px solid #d6d6d6;
@@ -630,12 +423,12 @@ color: #333333;
 }
 .aboutNEST{
 	height: 153px;
-	background: #333333;
+	/*background: #333333;*/
 }
 .aboutNEST{
 	    position: relative;
     padding: 20px 0;
-    background: #333;
+    /*background: #333;*/
     line-height: 26px;
     text-align: center;
     color:#c2c2c2;

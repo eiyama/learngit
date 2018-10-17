@@ -26,7 +26,7 @@
               }
             return $array;//查询语句，返回数组
           } else if ($type == "2") {
-            return $r->fetch_assoc();//查询语句，返回关联数组, 一条
+            return $r->fetch_object();//查询语句，返回关联数组, 一条
           }
           else {
             //    是添加或者删除或者修改语句
